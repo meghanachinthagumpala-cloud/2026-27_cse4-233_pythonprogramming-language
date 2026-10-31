@@ -19,7 +19,7 @@ To develop a Python program that calculates household electricity bills based on
 12. Stop.
 3. ```mermaid
    
-flowchart TD
+
     A([START]) --> B[/Enter Number of Months/]
     B --> C[/Enter Electricity Units/]
     C --> D{Check Consumption Slab}
