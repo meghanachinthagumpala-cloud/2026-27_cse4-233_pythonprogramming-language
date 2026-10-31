@@ -17,9 +17,8 @@ To develop a Python program that calculates household electricity bills based on
 10. Identify unusual increases if the bill increases by more than 30% compared with the previous month.
 11. Display monthly bills and unusual increases.
 12. Stop.
-3. ```mermaid
-   
-
+13. ```mermaid
+    ```
     A([START]) --> B[/Enter Number of Months/]
     B --> C[/Enter Electricity Units/]
     C --> D{Check Consumption Slab}
@@ -56,7 +55,6 @@ To develop a Python program that calculates household electricity bills based on
     T --> U
     U --> V([STOP])
 
-   ```
 4. hus, the Progressive Electricity Billing System is successfully implemented using Python. It calculates electricity bills using multiple slabs, fixed charges, surcharges, and rebates, compares monthly bills, and identifies unusual increases.
 
 Note: The electricity rates and billing rules used here are assumed values for this programming exercise, not official electricity tariff rates.
