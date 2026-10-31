@@ -1,6 +1,11 @@
-1. Problem Statement
+# 2. Progressive Electricity Billing System
+
+## 1. Problem Statement
+
 To develop a Python program that calculates household electricity bills based on multiple consumption slabs, fixed charges, surcharges, and rebates. The system compares electricity bills across several months and identifies unusual increases in monthly bills.
-2. Algorithm
+
+## 2. Algorithm
+
 1. Start the program.
 2. Enter the number of months.
 3. Enter electricity consumption units for each month.
@@ -17,8 +22,11 @@ To develop a Python program that calculates household electricity bills based on
 10. Identify unusual increases if the bill increases by more than 30% compared with the previous month.
 11. Display monthly bills and unusual increases.
 12. Stop.
-13. ```mermaid
-    
+
+## 3. Flowchart
+```mermaid
+
+flowchart TD
     A([START]) --> B[/Enter Number of Months/]
     B --> C[/Enter Electricity Units/]
     C --> D{Check Consumption Slab}
@@ -54,16 +62,77 @@ To develop a Python program that calculates household electricity bills based on
     S --> U[/Display All Bills/]
     T --> U
     U --> V([STOP])
-    ```
 
-4. hus, the Progressive Electricity Billing System is successfully implemented using Python. It calculates electricity bills using multiple slabs, fixed charges, surcharges, and rebates, compares monthly bills, and identifies unusual increases.
+```
+
+```
+
+## 5. Sample Input
+
+```
+Enter number of months: 4
+
+Month 1
+Enter electricity units: 80
+
+Month 2
+Enter electricity units: 150
+
+Month 3
+Enter electricity units: 250
+
+Month 4
+Enter electricity units: 350
+```
+
+## 6. Sample Output
+
+```
+Month 1
+Energy Charges: 160.0
+Fixed Charges: 50
+Surcharge: 0
+Rebate: 8.0
+Total Bill: Rs. 202.0
+
+Month 2
+Energy Charges: 350.0
+Fixed Charges: 50
+Surcharge: 0
+Rebate: 0
+Total Bill: Rs. 400.0
+
+Month 3
+Energy Charges: 850.0
+Fixed Charges: 50
+Surcharge: 0
+Rebate: 0
+Total Bill: Rs. 900.0
+
+Month 4
+Energy Charges: 1550.0
+Fixed Charges: 50
+Surcharge: 77.5
+Rebate: 0
+Total Bill: Rs. 1677.5
+
+--- Monthly Bill Comparison ---
+
+Month 1 : Rs. 202.0
+Month 2 : Rs. 400.0
+Month 3 : Rs. 900.0
+Month 4 : Rs. 1677.5
+
+--- Unusual Bill Increases ---
+
+Month 2 has an unusual increase of 98.02 %
+Month 3 has an unusual increase of 125.0 %
+Month 4 has an unusual increase of 86.39 %
+```
+
+
+## 8. Conclusion
+
+Thus, the Progressive Electricity Billing System is successfully implemented using Python. It calculates electricity bills using multiple slabs, fixed charges, surcharges, and rebates, compares monthly bills, and identifies unusual increases.
 
 Note: The electricity rates and billing rules used here are assumed values for this programming exercise, not official electricity tariff rates.
-
-
-
-
-
-
-
-medium.com
