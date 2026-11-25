@@ -1,1 +1,11 @@
+students = [
+    {"name": "Meghana", "marks": 90},
+    {"name": "Priya", "marks": 85},
+    {"name": "Manaswini", "marks": 95}
+]
 
+ascending = sorted(students, key=lambda x: x["marks"])
+descending = sorted(students, key=lambda x: x["marks"], reverse=True)
+
+print("Ascending Order:", ascending)
+print("Descending Order:", descending)
