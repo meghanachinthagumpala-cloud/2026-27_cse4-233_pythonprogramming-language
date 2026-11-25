@@ -1,1 +1,9 @@
+students = {
+    1: {"name": "Meghana", "marks": 90},
+    2: {"name": "Manaswini", "marks": 85},
+    3: {"name": "Priya", "marks": 95}
+}
 
+for student in students.values():
+    print("Name:", student["name"])
+    print("Marks:", student["marks"])
