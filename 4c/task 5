@@ -1,1 +1,9 @@
+with open("sample.txt", "r") as file:
+    content = file.read()
 
+content = content.replace("Python", "Java")
+
+with open("sample.txt", "w") as file:
+    file.write(content)
+
+print("Word replaced successfully.")
