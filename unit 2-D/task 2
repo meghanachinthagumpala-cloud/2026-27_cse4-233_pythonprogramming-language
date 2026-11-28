@@ -1,1 +1,23 @@
+text = "  Hello Python World  "
 
+# Uppercase
+print("Upper:", text.upper())
+
+# Lowercase
+print("Lower:", text.lower())
+
+# Remove extra spaces
+print("Strip:", text.strip())
+
+# Split string
+print("Split:", text.split())
+
+# Join strings
+words = ["Hello", "Python"]
+print("Join:", " ".join(words))
+
+# Replace a word
+print("Replace:", text.replace("Python", "Java"))
+
+# Find a word
+print("Find:", text.find("Python"))
