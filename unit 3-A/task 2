@@ -1,1 +1,21 @@
+numbers = [30, 10, 50, 20]
 
+# Append
+numbers.append(40)
+print("After append:", numbers)
+
+# Insert
+numbers.insert(1, 15)
+print("After insert:", numbers)
+
+# Remove
+numbers.remove(50)
+print("After remove:", numbers)
+
+# Sort
+numbers.sort()
+print("After sort:", numbers)
+
+# Reverse
+numbers.reverse()
+print("After reverse:", numbers)
