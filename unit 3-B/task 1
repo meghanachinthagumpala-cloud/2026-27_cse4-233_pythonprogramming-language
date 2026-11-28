@@ -1,1 +1,15 @@
+# Create a tuple
+fruits = ("Apple", "Banana", "Mango", "Orange")
 
+# Display the tuple
+print("Tuple:", fruits)
+
+# Access elements using index
+print("First element:", fruits[0])
+print("Second element:", fruits[1])
+print("Last element:", fruits[-1])
+
+# Access all elements using loop
+print("All tuple elements:")
+for i in fruits:
+    print(i)
