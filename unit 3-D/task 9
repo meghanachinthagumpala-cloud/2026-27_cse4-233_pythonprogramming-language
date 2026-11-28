@@ -1,1 +1,11 @@
+# Global variable
+x = 10
 
+def display():
+    # Local variable
+    x = 20
+    print("Local variable:", x)
+
+display()
+
+print("Global variable:", x)
