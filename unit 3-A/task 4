@@ -1,1 +1,10 @@
+numbers = [10, 20, 30, 20, 40, 10, 50]
 
+unique = []
+
+for i in numbers:
+    if i not in unique:
+        unique.append(i)
+
+print("Original list:", numbers)
+print("List after removing duplicates:", unique)
