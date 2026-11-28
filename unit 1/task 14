@@ -1,1 +1,13 @@
+a = 10
+b = 5
+c = 2
 
+result1 = a + b * c
+result2 = (a + b) * c
+result3 = a - b - c
+result4 = a ** b ** c
+
+print("a + b * c =", result1)
+print("(a + b) * c =", result2)
+print("a - b - c =", result3)
+print("a ** b ** c =", result4)
