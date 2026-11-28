@@ -1,1 +1,20 @@
+# Create a set
+numbers = {10, 20, 30, 40}
 
+print("Original set:", numbers)
+
+# Membership testing
+print("Is 20 present?", 20 in numbers)
+print("Is 50 present?", 50 in numbers)
+
+# Add an element
+numbers.add(50)
+print("After add:", numbers)
+
+# Remove an element
+numbers.remove(30)
+print("After remove:", numbers)
+
+# Discard an element
+numbers.discard(60)
+print("After discard:", numbers)
